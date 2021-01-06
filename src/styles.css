@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+}
+
+.meaning {
+  font-size: 30px;
+}
+
+input {
+  width: 80vw;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.emojis-wrapper {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 40px;
+  width: 70vw;
+}
+
+.emoji {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 40px;
+  padding: 10px;
+  width: 70px;
+}
+
+footer {
+  padding: 20px;
+  background-color: #26032b;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: #8e44ad;
+  font-weight: bolder;
+}
