@@ -9,7 +9,9 @@ body {
   justify-content: center;
   margin: 0;
   min-height: 100vh;
+  border: 1px solid red;
   text-align: center;
+  position: relative;
 }
 
 .meaning {
@@ -46,6 +48,10 @@ footer {
   background-color: #26032b;
   margin-top: auto;
   color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
 
 footer a {
