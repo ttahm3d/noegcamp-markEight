@@ -9,13 +9,14 @@ body {
   justify-content: center;
   margin: 0;
   min-height: 100vh;
-  border: 1px solid red;
   text-align: center;
   position: relative;
 }
 
 .meaning {
-  font-size: 30px;
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 input {
@@ -29,7 +30,7 @@ input {
   gap: 8px;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 0 auto;
+  margin: 0px auto 30px;
   padding: 40px;
   width: 70vw;
 }
