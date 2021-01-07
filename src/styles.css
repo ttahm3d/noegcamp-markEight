@@ -16,6 +16,7 @@ body {
 .meaning {
   font-size: 20px;
   width: 70%;
+  min-height: 45px;
   margin: 0 auto;
 }
 
@@ -25,7 +26,11 @@ h1 {
 input {
   width: 80vw;
   padding: 10px;
+  border-radius: 10px;
+
   font-size: 18px;
+  font-family: inherit;
+  border: none;
 }
 
 .emojis-wrapper {
